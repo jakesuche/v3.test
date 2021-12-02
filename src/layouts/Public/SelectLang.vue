@@ -76,6 +76,7 @@ select {
   background: url('../../assets/icons/select_icon.svg') no-repeat 98%;
   background-size: 10px 10px;
   height: 23px;
+  font-size:13px;
   // margin-bottom: 3rem;
   &::-ms-expand {
     display: none;
