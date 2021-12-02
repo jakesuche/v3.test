@@ -1,6 +1,6 @@
 <template>
   <Description
-    :email="email"
+    :email="!email"
     :is-completed="isCompleted"
   />
   <Completed

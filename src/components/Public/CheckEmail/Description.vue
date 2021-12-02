@@ -43,7 +43,7 @@ export default defineComponent({
   h1 {
     color: $text-dark-grey-4;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 30px;
   }
   p {
     color: $text-dark-grey-5;
