@@ -40,6 +40,7 @@
             @click="handleLogin"
           >
             {{ t(`Login.form.loginButton`) }}
+            
           </base-button>
           <div class="forgotPassword">
             <base-link :to="{ name: 'ForgotPassword' }">
@@ -58,6 +59,7 @@
             alt="Google G icon"
           >
           {{ t(`Login.form.loginWithGoogle`) }}
+          
         </base-button>
       </div>
     </div>

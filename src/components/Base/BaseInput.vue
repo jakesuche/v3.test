@@ -130,6 +130,7 @@ export default defineComponent({
   span {
     color: $error;
     padding-left: 8px;
+    font-size:13px;
     &.required {
       position: absolute;
       top: 32px;
