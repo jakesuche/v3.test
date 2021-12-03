@@ -84,8 +84,8 @@ import { RulesType } from '@/types/Vuelidate';
 export default defineComponent({
   methods: {
     async handleGoogleAuth() {
-      const user = await this.$gAuth.signIn();
-      console.log(user);
+      // const user = await this.$gAuth.signIn();
+      // console.log(user);
     },
   },
   setup() {
