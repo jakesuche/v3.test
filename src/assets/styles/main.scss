@@ -97,9 +97,9 @@ body {
   background-color: $primary;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 660px) {
   .login-page {
-    padding: 50px 50px;
+    padding: 10px;
     height: fit-content;
   }
 }
@@ -109,5 +109,19 @@ body {
     display: flex;
     flex-direction: column;
     height: fit-content;
+    padding:50px
+  }
+}
+
+@media (max-width: 767px) {
+  .login-page {
+    
+    padding:30px
+  }
+}
+@media (max-width: 500px) {
+  .login-page {
+    
+    padding:20px
   }
 }

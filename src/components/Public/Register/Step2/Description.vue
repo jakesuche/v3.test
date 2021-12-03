@@ -42,6 +42,7 @@ div.description {
   display: flex;
   align-items: center;
   gap: 1rem;
+  justify-content:center;
   .legend {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,6 @@
 {
   "form": {
+    "prelude": "Step 3 of 3",
     "title": "Congratulations, we're setting up your free trial.",
     "companyName": "Company Name",
     "companyNamePlaceholder": "Juridoc",
@@ -73,7 +74,7 @@
     "confirmTerms": "I confirm that I have read, consent and agree to Juridoc’s Term of Use and Privacy Policy, and I am of legal age."
   },
   "description": {
-    "main": "You're almost done",
+    "main": "You're almost done, congratulations! We're setting up your free trial",
     "sub": "Just a few more details from your company and you're ready to go",
     "itemsBrand": "Grow your business with us!",
     "items": {

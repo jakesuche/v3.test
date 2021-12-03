@@ -46,6 +46,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+
 .header {
   border-radius: 5px 5px 0px 0px;
   display: grid;
@@ -106,6 +107,17 @@ export default defineComponent({
       display: flex;
     }
 
+  }
+}
+
+@media (max-width:1024px) {
+  .header {
+      grid-template-columns: 400px 400px;
+  }
+}
+@media (max-width:800px) {
+  .header {
+      grid-template-columns: 300px 300px;
   }
 }
 </style>

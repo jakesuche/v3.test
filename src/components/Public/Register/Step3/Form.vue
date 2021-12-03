@@ -5,7 +5,7 @@
   >
     <div class="form-content">
       <div class="form-title">
-        <h1>{{ t(`Step3.form.title`) }}</h1>
+        <!-- <h1>{{ t(`Step3.form.title`) }}</h1> -->
       </div>
       <div class="inputs">
         <base-input
@@ -190,6 +190,10 @@ export default defineComponent({
 <style lang="scss" scoped>
 .form .buttons {
   flex-direction: row;
+  
+}
+.btn{
+  font-size: 16px;
 }
 .form .form-title h1 {
   font-size: 28px;
