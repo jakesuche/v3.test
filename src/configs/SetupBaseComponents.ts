@@ -1,6 +1,6 @@
 import { App } from 'vue';
 
-type requireType = __WebpackModuleApi.RequireContext;
+// type requireType = __WebpackModuleApi.RequireContext;
 
 function convertNameFile(nameFile: string, typeFile: string): string {
   const nameFileReplace = nameFile.replace(typeFile, '').replace('./', '');
@@ -14,16 +14,16 @@ function convertNameFile(nameFile: string, typeFile: string): string {
 }
 
 export default (app: App): void => {
-  const components: requireType = require.context(
-    '../components/Base',
-    false,
-    /.(vue)$/,
-  );
+  // const components: requireType = require.context(
+  //   '../components/Base',
+  //   false,
+  //   /.(vue)$/,
+  // );
 
-  components.keys().forEach((fileName) => {
-    const componentName: string = convertNameFile(fileName, '.vue');
-    const componentConfig = components(fileName);
+  // components.keys().forEach((fileName:any) => {
+  //   const componentName: string = convertNameFile(fileName, '.vue');
+  //   const componentConfig = components(fileName);
 
-    app.component(componentName, componentConfig.default);
-  });
+  //   app.component(componentName, componentConfig.default);
+  // });
 };
