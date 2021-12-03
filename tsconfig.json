@@ -19,7 +19,8 @@
     "types": [
       "vite/client",
       "gapi",
-      "gapi.auth2"
+      "gapi.auth2",
+      "node"
     ],
     "typeRoots": [
       "./src/types",
